@@ -1,0 +1,76 @@
+                  ,New Proposed Missions                                                 ,        ,      ,   ,    ,
+Name              ,Requirements                                                           ,Crystals,Money ,XP ,Item,Daily
+farmer            ,"    - GROW:SUGAR_CANE:10
+    - GROW:WHEAT:10
+    - GROW:CARROTS:10"                                             ,5       ,1000  ,3  ,-   ,yes
+hunter            ,"    - KILL:ZOMBIE:10
+    - KILL:SKELETON:10
+    - KILL:CREEPER:10"                                                ,5       ,1000  ,3  ,-   ,yes
+baker             ,- CRAFT:BREAD:64                                                      ,5       ,1000  ,3  ,-   ,yes
+miner             ,"    - MINE:IRON_ORE:15
+    - MINE:COAL_ORE:30
+    - MINE:DIAMOND_ORE:1"                                             ,5       ,1000  ,3  ,-   ,yes
+fisherman         ,- FISH:ANY:10                                                         ,5       ,1000  ,3  ,-   ,yes
+blacksmith        ,"    - SMELT:RAW_IRON:30
+    - SMELT:RAW_GOLD:15"                                              ,5       ,1000  ,3  ,-   ,yes
+potionbrewer      ,"    - BREW:SPEED:2:3
+    - BREW:STRENGTH:2:3"                                              ,5       ,1000  ,3  ,-   ,yes
+lumberjack i      ,- MINE:LOGS:16                                                        ,5       ,1000  ,3  ,-   ,no
+lumberjack ii     ,- MINE:LOGS:64                                                        ,7       ,1100  ,5  ,-   ,no
+lumberjack iii    ,"    - MINE:SPRUCE_LOG:32
+    - MINE:BIRCH_LOG:32
+    - MINE:OAK_LOG:32
+    - MINE:JUNGLE_LOG:32"                                             ,10      ,1200  ,10 ,-   ,no
+crafting i        ,"    - CRAFT:CRAFTING_TABLE:1
+    - CRAFT:FURNACE:4
+    - CRAFT:CHEST:4"                                         ,5       ,1000  ,3  ,-   ,no
+cobble miner i    ,- MINE:COBBLESTONE:100                                                ,5       ,1000  ,3  ,-   ,no
+cobble miner ii   ,- MINE:COBBLESTONE:200                                                ,5       ,1000  ,5  ,-   ,no
+cobble miner iii  ,- MINE:COBBLESTONE:300                                                ,5       ,1000  ,7  ,-   ,no
+cobble miner iv   ,- MINE:COBBLESTONE:400                                                ,10      ,2000  ,10 ,-   ,no
+cobble miner v    ,- MINE:COBBLESTONE:500                                                ,10      ,2000  ,10 ,-   ,no
+cobble miner vi   ,- MINE:COBBLESTONE:600                                                ,15      ,3000  ,12 ,-   ,no
+cobble miner vii  ,- MINE:COBBLESTONE:700                                                ,15      ,3500  ,12 ,-   ,no
+cobble miner viii ,- MINE:COBBLESTONE:800                                                ,15      ,4000  ,12 ,-   ,no
+mine i            ,- MINE:ANY:100                                                        ,1       ,100   ,1  ,-   ,no
+mine ii           ,- MINE:ANY:1000                                                       ,10      ,1000  ,10 ,-   ,no
+mine iii          ,- MINE:ANY:10000                                                      ,20      ,7500  ,75 ,-   ,no
+mine iv           ,- MINE:ANY:100000                                                     ,50      ,50000 ,150,-   ,no
+mine v            ,- MINE:ANY:1000000                                                    ,100     ,100000,300,-   ,no
+killmobs i        ,"    - KILL:ZOMBIE:10
+    - KILL:SKELETON:10
+    - KILL:CREEPER:10"                                                ,5       ,1000  ,3  ,-   ,no
+zombiehunter i    ,- KILL:ZOMBIE:50                                                      ,5       ,1000  ,5  ,-   ,no
+zombiehunter ii   ,- KILL:ZOMBIE:250                                                     ,7       ,2500  ,25 ,-   ,no
+zombiehunter iii  ,- KILL:ZOMBIE:500                                                     ,15      ,5000  ,50 ,-   ,no
+zombiehunter iv   ,- KILL:ZOMBIE:1000                                                    ,100     ,10000 ,100,-   ,no
+skeletonhunter i  ,- KILL:SKELETON:50                                                    ,5       ,1000  ,6  ,-   ,no
+skeletonhunter ii ,- KILL:SKELETON:250                                                   ,7       ,2500  ,25 ,-   ,no
+skeletonhunter iii,- KILL:SKELETON:500                                                   ,15      ,5000  ,50 ,-   ,no
+skeletonhunter iv ,- KILL:SKELETON:1000                                                  ,100     ,10000 ,100,-   ,no
+builder i         ,- PLACE:ANY:100                                                       ,1       ,100   ,1  ,-   ,no
+builder ii        ,- PLACE:ANY:1000                                                      ,10      ,1000  ,10 ,-   ,no
+builder iii       ,- PLACE:ANY:10000                                                     ,20      ,7500  ,75 ,-   ,no
+builder iv        ,- PLACE:ANY:100000                                                    ,50      ,50000 ,150,-   ,no
+wheat i           ,- GROW:WHEAT:64                                                       ,5       ,1000  ,3  ,-   ,no
+carrot i          ,- GROW:CARROTS:64                                                     ,5       ,1000  ,3  ,-   ,no
+melon i           ,- GROW:MELON:64                                                       ,5       ,1000  ,3  ,-   ,no
+pumpkin i         ,- GROW:PUMPKIN:64                                                     ,5       ,1000  ,3  ,-   ,no
+sugarcane i       ,- GROW:SUGAR_CANE:64                                                  ,5       ,1000  ,3  ,-   ,no
+potato i          ,- GROW:POTATO:64                                                      ,5       ,1000  ,3  ,-   ,no
+beetroot i        ,- GROW:BEETROOT:64                                                    ,5       ,1000  ,3  ,-   ,no
+cactus i          ,- GROW:CACTUS:64                                                      ,5       ,1000  ,3  ,-   ,no
+netherwart i      ,- GROW:NETHERWART:64                                                  ,5       ,1000  ,3  ,-   ,no
+iron i            ,"    - MINE:IRON_ORE:32
+    - SMELT:RAW_IRON:32"                                              ,5       ,1000  ,3  ,-   ,no
+diamonds i        ,- MINE:DIAMOND_ORE:5                                                  ,5       ,1000  ,3  ,-   ,no
+fish novice       ,- FISH:ANY:25                                                         ,5       ,1000  ,3  ,-   ,no
+fish expert       ,- FISH:ANY:100                                                        ,20      ,4000  ,12 ,-   ,no
+fish god          ,- FISH:ANY:250                                                        ,50      ,9000  ,26 ,-   ,no
+baker i           ,"    - CRAFT:CAKE:10
+    - CRAFT:BREAD:10"                                                 ,5       ,1000  ,3  ,-   ,no
+                  ,"Total - Base calculation, daily missions are taken into account once",470     ,121600,674,    ,
+                  ,                                                                      ,        ,      ,   ,    ,
+                  ,                                                                      ,        ,      ,   ,    ,
+                  ,                                                                      ,        ,      ,   ,    ,
+Daily money calc: ,4000 (4 x 1000) + 6000 from voting = 10000                            ,        ,      ,   ,    ,

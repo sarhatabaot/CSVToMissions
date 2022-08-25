@@ -1,0 +1,56 @@
+{id}:
+  item:
+    material: {material} #"SUGAR_CANE"
+    amount: 1
+    displayName: {displayName} #"&b&lFarmer"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+      - "&7Complete Island Missions to gain rewards"
+      - "&7Which can be used to purchase Island Upgrades"
+      - ""
+      - "&b&lObjectives:"
+      - "{missions_lore}"
+      - "&b&l* &7Grow 10 Sugarcane: %progress_1%/10"
+      - "&b&l* &7Grow 10 Wheat: %progress_2%/10"
+      - "&b&l* &7Grow 10 Carrots: %progress_3%/10"
+      - ""
+      - "&b&lRewards"
+      - "&b&l* &75 Island Crystals"
+      - "&b&l* &7$1000"
+      - "&b&l* &73 Island Experience"
+    slot: null
+    missions:
+      - "GROW:SUGAR_CANE:10"
+      - "GROW:WHEAT:10"
+      - "GROW:CARROTS:10"
+    missionType: "DAILY"
+    completeSound: "ENTITY_PLAYER_LEVELUP"
+    reward:
+      item:
+        material: "DIAMOND"
+        amount: 1
+        displayName: "&b&lFarmer Reward"
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore:
+          - "&b&l Rewards"
+          - "&b&l* &75 Island Crystals"
+          - "&b&l* &7$1000"
+          - "&b&l* &73 Island Experience"
+        slot: null
+      commands: [ ]
+      islandExperience: 3
+      crystals: 5
+      money: 1000.0
+      experience: 0
+      sound: "ENTITY_PLAYER_LEVELUP"
+    message:
+      - "%prefix% &7Farmer mission Completed!"
+      - "&b&l* &7+3 Island Experience"
+      - "&b&l* &7+5 Island Crystals"
+      - "&b&l* &7+1000 Money"
+      - "&7/is rewards to redeem rewards"
+
